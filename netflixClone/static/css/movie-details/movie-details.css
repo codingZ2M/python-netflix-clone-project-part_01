@@ -1,0 +1,107 @@
+/* Banner */
+.detail-container {
+  background-color: #0f0f0f;
+  height: 100vh; /* 100 Vertical height of the whole browser */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3));
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  top: 0px;
+  padding: 0;
+  overflow: hidden;
+  display: block;
+}
+
+.detail-container .content {
+  left: 30px;
+  position: absolute;
+  top: 0px;
+}
+.detail-container .content .controls {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.player,
+.trailer {
+  font-size: 17px;
+  margin: 290px 22px 0px 0px;
+  padding: 30px 34px;
+  height: 70px;
+  border-radius: 4px;
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  background: #f9f9f9;
+  border: none;
+  color: #0f0f0f;
+  font-weight: bold;
+}
+.trailer {
+  background: #0f0f0f;
+  color: #f9f9f9;
+}
+.player img {
+  width: 60px;
+}
+.trailer img {
+  width: 45px;
+  padding-right: 10px;
+}
+.player:hover {
+  background-color: rgb(198, 198, 198);
+  cursor: pointer;
+}
+.trailer:hover {
+  background: rgb(32, 32, 32);
+}
+
+.add-list,
+.group-watch {
+  margin: 290px 22px 0px 0px;
+  height: 70px;
+  width: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 50%;
+  border: 2px solid #ffffff;
+  cursor: pointer;
+}
+.add-list img,
+.group-watch img {
+  width: 40px;
+}
+
+.add-list:hover,
+.group-watch:hover {
+  background: rgb(12, 11, 11);
+}
+
+.movie-desc {
+  color: #f9f9f9;
+  font-size: 13px;
+  margin: 0 auto; /* top | right | bottom | left */
+  line-height: 20px;
+  letter-spacing: 1.5px;
+  max-width: 600px;
+  padding: 20px 0 0 0;
+}
+
+.detail-container .content .movie-data {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0px 10px 0px; /* top | right | bottom | left */
+  color: #f9f9f9;
+  font-size: 18px;
+  min-height: 60px;
+}

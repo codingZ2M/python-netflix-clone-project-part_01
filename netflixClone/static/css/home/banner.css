@@ -1,0 +1,49 @@
+/* Banner */
+.banner {
+  height: 100vh; /* 100 Vertical height of the whole browser */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3));
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+}
+/* Banner */
+
+/* CTA */
+.call-to-action {
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+.hero-button {
+  font-weight: bold;
+  color: #f9f9f9;
+  background-color: #0f0f0f;
+  margin-bottom: 12px;
+  margin-top: 50rem;
+  width: 100%;
+  letter-spacing: 1.5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  padding: 16px 0;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+.hero-button:hover {
+  color: #0f0f0f;
+  background-color: #f9f9f9;
+}
+
+.hero-desc {
+  color: #f9f9f9;
+  font-size: 13px;
+  margin: 0 auto; /* top | right | bottom | left */
+  line-height: 20px;
+  letter-spacing: 1.5px;
+}
+/* CTA */

@@ -1,0 +1,188 @@
+/* 1rem = 1em = 16px  */
+/* Setting Breakpoint for the devices which are below 1344px (Smaller Desktops) */
+@media (max-width: 84em) {
+  /* common */
+  .container {
+    max-width: 125rem;
+    padding: 0 0;
+    margin: 8rem auto; /* vertical | horizontal */
+  }
+  .heading-primary {
+    font-size: 4.5rem;
+  }
+  .heading-secondary {
+    font-size: 3rem;
+  }
+  /* common */
+
+  /* Mobile Plan */
+  .plan-name {
+    font-size: 7.6rem;
+    font-weight: 400;
+  }
+  /* Mobile Plan */
+
+  /* Collections Section */
+  .grid {
+    column-gap: 4.5rem;
+  }
+  /* Collections Section */
+}
+
+/*  Setting Breakpoint for the devices which are below 1200px (Landscape Tablets) */
+@media (max-width: 75em) {
+  /* common */
+  .container {
+    max-width: 110rem;
+    padding: 0 0;
+    margin: 8rem auto; /* vertical | horizontal */
+  }
+  .heading-primary {
+    font-size: 4rem;
+  }
+  .heading-secondary {
+    font-size: 2.5rem;
+  }
+  /* common */
+  /* Mobile Plan */
+  .plan-name {
+    font-size: 6.6rem;
+    font-weight: 400;
+  }
+  /* Mobile Plan */
+
+  /* Collections Section */
+  .grid {
+    column-gap: 2.5rem;
+  }
+  .collection-title {
+    font-size: 1.7rem;
+  }
+  /* Collections Section */
+}
+
+/* Setting Breakpoint for the devices which are below 944px (Tablets) */
+@media (max-width: 59em) {
+  /* common */
+  .container {
+    max-width: 85rem;
+    padding: 0 0;
+    margin: 8rem auto; /* vertical | horizontal */
+  }
+  .heading-primary {
+    font-size: 3rem;
+  }
+  .heading-secondary {
+    font-size: 2rem;
+  }
+  /* common */
+  /* Mobile Plan */
+  .plan-name {
+    font-size: 5rem;
+    font-weight: 400;
+  }
+  .plan-description {
+    font-size: 1.3rem;
+    line-height: 1.5;
+  }
+  /* Mobile Plan */
+
+  /* Collections Section */
+  .grid {
+    column-gap: 2rem;
+  }
+  .collection-title {
+    font-size: 1.5rem;
+  }
+  .collection-attribute {
+    font-size: 1.2rem;
+  }
+  /* Collections Section */
+
+  /* CTA  */
+  .cta {
+    grid-template-columns: 1fr;
+  }
+  /* CTA  */
+}
+
+@media (max-width: 40em) {
+  /* common */
+  .container {
+    max-width: 44rem;
+    padding: 0 0;
+    margin: 6rem auto; /* vertical | horizontal */
+  }
+  .heading-primary {
+    font-size: 3.2rem;
+  }
+  .heading-secondary {
+    font-size: 2rem;
+    font-weight: 300;
+  }
+  /* common */
+
+  /* Mobile Plan */
+  .plan {
+    display: flex;
+    flex-direction: column;
+  }
+  .plan-name {
+    font-size: 4.6rem;
+    font-weight: 400;
+  }
+
+  .plan-description {
+    font-size: 1.6rem;
+    line-height: 1.6;
+  }
+  .plan .plan-img-box img {
+    margin-bottom: 1rem;
+  }
+  /* Mobile Plan */
+
+  /* Collections Section */
+  .grid {
+    display: grid;
+    column-gap: 2.4rem;
+    row-gap: 4.6rem;
+  }
+
+  .grid--4-cols {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .collection-title {
+    font-size: 1.5rem;
+  }
+  .collection-attribute {
+    font-size: 1.3rem;
+  }
+  /* Collections Section */
+
+  /* CTA  */
+  .cta {
+    grid-template-columns: 1fr;
+  }
+  .cta-form {
+    grid-template-columns: 1fr;
+    column-gap: 3.2rem;
+    row-gap: 2.4rem;
+  }
+  .cta-text {
+    font-size: 1.8rem;
+    line-height: 1.4;
+    margin-bottom: 2.8rem;
+  }
+  /* CTA  */
+
+  /* Footer */
+  .grid--footer {
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2.4rem;
+    row-gap: 5.6rem;
+  }
+  .footer {
+    padding: 0rem 0;
+  }
+  /* Footer */
+}

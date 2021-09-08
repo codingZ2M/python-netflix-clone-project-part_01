@@ -1,0 +1,83 @@
+/* 1rem = 1em = 16px  */
+/* Setting Breakpoint for the devices which are below 1344px (Smaller Desktops) */
+@media (max-width: 84em) {
+  /* common */
+  .container-shows {
+    max-width: 125rem;
+  }
+  .container {
+    max-width: 125rem;
+  }
+  .sub-heading {
+    font-size: 2.3rem;
+  }
+  /* common */
+}
+
+@media (max-width: 75em) {
+  /* common */
+  .container-shows {
+    max-width: 110rem;
+  }
+  .container {
+    max-width: 110rem;
+  }
+  .sub-heading {
+    font-size: 2.1rem;
+  }
+  /* common */
+  /* movie */
+  .grid--5-cols {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  /* movie */
+}
+
+@media (max-width: 59em) {
+  /* common */
+  .container-shows {
+    max-width: 85rem;
+  }
+  .container {
+    max-width: 85rem;
+  }
+  .sub-heading {
+    font-size: 2rem;
+  }
+
+  /* common */
+  /* movie */
+  .grid--5-cols {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  /* movie */
+}
+@media (max-width: 40em) {
+  /* common */
+  .container-shows {
+    max-width: 44rem;
+  }
+  .container {
+    max-width: 44rem;
+  }
+  .sub-heading {
+    font-size: 1.9rem;
+  }
+
+  /* common */
+  /* movie */
+  .grid--5-cols {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  /* movie */
+  /* Footer */
+  .grid--footer {
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2.4rem;
+    row-gap: 5.6rem;
+  }
+  .footer {
+    padding: 0rem 0;
+  }
+  /* Footer */
+}

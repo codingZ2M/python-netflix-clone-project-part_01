@@ -1,0 +1,66 @@
+/* Header */
+.header {
+  display: flex;
+  background-color: #0f0f0f;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 70px;
+  z-index: 1;
+}
+
+.logo {
+  width: 100px;
+  margin: 20px 20px;
+}
+
+.header #menu-links {
+  margin: 8rem 1rem;
+  padding-left: 0.5rem;
+  display: none;
+  width: 250px;
+  height: 250px;
+  background-color: #0f0f0f;
+  border-radius: 10px;
+  cursor: pointer;
+  border: 1px solid #424141;
+  opacity: 0.8;
+  position: absolute;
+  left: 1rem;
+}
+
+/* Style navigation menu links */
+.header a {
+  color: #f9f9f9;
+  padding: 10px 20px;
+  display: block;
+  font-size: 13px;
+  font-weight: lighter;
+  letter-spacing: 1px;
+}
+
+/* Style the hamburger menu */
+.header a.icon {
+  background: #0f0f0f;
+  display: block;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  height: 70px;
+}
+.hamburger-menu-icon {
+  width: 4.8rem;
+  height: 4.8rem;
+}
+/* Add a grey background color on mouse-over */
+.header a.icon:hover {
+  background-color: #f9f9f9;
+  color: #0f0f0f;
+}
+.header a:hover {
+  background-color: #302d2d;
+  color: #f9f9f9;
+}
+
+/* Header */

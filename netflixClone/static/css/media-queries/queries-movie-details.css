@@ -1,0 +1,172 @@
+/* 1rem = 1em = 16px  */
+/* Setting Breakpoint for the devices which are below 1344px (Smaller Desktops) */
+@media (max-width: 84em) {
+  /* common */
+  .container {
+    max-width: 125rem;
+    padding: 0 0;
+    margin: 8rem auto; /* vertical | horizontal */
+  }
+  /* Controls */
+  .player,
+  .trailer {
+    padding: 29px 33px;
+    height: 55px;
+    font-size: 14px;
+  }
+  .player img {
+    width: 52px;
+  }
+  .trailer img {
+    width: 42px;
+  }
+  .add-list,
+  .group-watch {
+    height: 55px;
+    width: 55px;
+  }
+  .add-list img,
+  .group-watch img {
+    width: 35px;
+  }
+  /* Controls */
+}
+
+@media (max-width: 75em) {
+  /* common */
+  .container {
+    max-width: 110rem;
+    padding: 0 0;
+    margin: 8rem auto; /* vertical | horizontal */
+  }
+  /* Controls */
+  .player,
+  .trailer {
+    padding: 22px 26px;
+    height: 50px;
+    font-size: 13px;
+  }
+  .player img {
+    width: 47px;
+  }
+  .trailer img {
+    width: 40px;
+  }
+  .add-list,
+  .group-watch {
+    height: 50px;
+    width: 50px;
+  }
+  .add-list img,
+  .group-watch img {
+    width: 30px;
+  }
+  /* Controls */
+
+  /* Movie Data */
+  .detail-container .content .movie-data {
+    font-size: 17px;
+    min-height: 55px;
+  }
+  /* Movie Data */
+  .movie-desc {
+    font-size: 12px;
+    max-width: 500px;
+  }
+}
+
+@media (max-width: 59em) {
+  /* common */
+  .container {
+    max-width: 85rem;
+    padding: 0 0;
+    margin: 8rem auto; /* vertical | horizontal */
+  }
+  /* Controls */
+  .player,
+  .trailer {
+    padding: 18px 22px;
+    height: 45px;
+    font-size: 11px;
+  }
+  .player img {
+    width: 42px;
+  }
+  .trailer img {
+    width: 35px;
+  }
+  .add-list,
+  .group-watch {
+    height: 45px;
+    width: 45px;
+  }
+  .add-list img,
+  .group-watch img {
+    width: 25px;
+  }
+  /* Controls */
+
+  /* Movie Data */
+  .detail-container .content .movie-data {
+    font-size: 15px;
+    min-height: 50px;
+  }
+  /* Movie Data */
+  .movie-desc {
+    font-size: 11px;
+    max-width: 450px;
+  }
+}
+
+@media (max-width: 40em) {
+  /* common */
+  .container {
+    max-width: 44rem;
+    padding: 0 0;
+    margin: 6rem auto; /* vertical | horizontal */
+  }
+  /* Controls */
+  .player,
+  .trailer {
+    padding: 14px 18px;
+    height: 40px;
+    font-size: 10px;
+  }
+  .player img {
+    width: 37px;
+  }
+  .trailer img {
+    width: 30px;
+  }
+  .add-list,
+  .group-watch {
+    height: 40px;
+    width: 40px;
+  }
+  .add-list img,
+  .group-watch img {
+    width: 20px;
+  }
+  /* Controls */
+
+  /* Movie Data */
+  .detail-container .content .movie-data {
+    font-size: 14px;
+    min-height: 45px;
+  }
+  /* Movie Data */
+  .movie-desc {
+    font-size: 11px;
+    max-width: 400px;
+  }
+  /* Footer */
+  .grid--footer {
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2.4rem;
+    row-gap: 5.6rem;
+  }
+  .footer {
+    padding: 0rem 0;
+  }
+  /* Footer */
+}

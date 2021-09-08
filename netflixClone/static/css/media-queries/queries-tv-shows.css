@@ -1,0 +1,118 @@
+/* 1rem = 1em = 16px  */
+/* Setting Breakpoint for the devices which are below 1344px (Smaller Desktops) */
+@media (max-width: 84em) {
+  /* common */
+  .container {
+    max-width: 125rem;
+  }
+  .container-shows {
+    max-width: 125rem;
+  }
+  .heading-secondary {
+    font-size: 3rem;
+  }
+  .heading-primary {
+    font-size: 4.5rem;
+    margin: 45px 0;
+    padding-bottom: 7rem;
+  }
+
+  /* common */
+
+  /* tv */
+  .grid--8-cols {
+    grid-template-columns: repeat(7, 1fr);
+  }
+  /* tv */
+}
+
+@media (max-width: 75em) {
+  /* common */
+  .container {
+    max-width: 110rem;
+  }
+  .container-shows {
+    max-width: 110rem;
+  }
+  .heading-secondary {
+    font-size: 2.5rem;
+  }
+  .heading-primary {
+    font-size: 4.5rem;
+    margin: 40px 0;
+    padding-bottom: 5rem;
+  }
+
+  /* common */
+  /* tv */
+  .grid--8-cols {
+    grid-template-columns: repeat(6, 1fr);
+  }
+  /* tv */
+}
+
+@media (max-width: 59em) {
+  /* common */
+  .container {
+    max-width: 85rem;
+  }
+  .container-shows {
+    max-width: 85rem;
+  }
+  .heading-secondary {
+    font-size: 2.4rem;
+  }
+  .heading-primary {
+    font-size: 3.5rem;
+    margin: 30px 0;
+    padding-bottom: 1.8rem;
+  }
+  /* common */
+  /* tv */
+  .grid--8-cols {
+    grid-template-columns: repeat(5, 1fr);
+  }
+  /* tv */
+}
+@media (max-width: 40em) {
+  /* common */
+  .container {
+    max-width: 44rem;
+  }
+  .container-shows {
+    max-width: 44rem;
+  }
+  .heading-secondary {
+    font-size: 2.2rem;
+  }
+  .heading-primary {
+    font-size: 2rem;
+    margin: 4px 0;
+    padding-bottom: 0.1rem;
+  }
+  .tv-banner-content .player {
+    font-size: 10px;
+    padding: 20px 54px;
+    height: 30px;
+    width: 25%;
+  }
+  .tv-banner-content .player img {
+    width: 30px;
+  }
+  /* common */
+  /* tv */
+  .grid--8-cols {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  /* tv */
+  /* Footer */
+  .grid--footer {
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2.4rem;
+    row-gap: 5.6rem;
+  }
+  .footer {
+    padding: 0rem 0;
+  }
+  /* Footer */
+}

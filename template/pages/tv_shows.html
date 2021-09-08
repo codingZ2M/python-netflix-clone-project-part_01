@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+{% load static %}
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Clone App</title>
+    
+    <link rel="stylesheet" href="{% static 'css/footer.css' %}">
+    <link rel="stylesheet" href="{% static 'css/common.css' %}">
+    <link rel="stylesheet" href="{% static 'css/header.css' %}">
+    <link rel="stylesheet" href="{% static 'css/media-queries/queries-tv-shows.css' %}">
+    <link rel="stylesheet" href="{% static 'css/tv-shows/tv-shows.css' %}">
+    
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <script src="{% static 'js/scripts.js' %}"></script>
+
+   <div class="wrapper">
+       <!-- Banner -->
+       <div class="banner">
+        <!-- Header -->
+         <div class="header">
+            <img class="logo" src="{% static '/images/home/banner/netflix_logo_small.png' %}"/>
+            <div id="menu-links">
+               <a href="{% url 'home' %}">HOME</a>
+              <a href="{% url 'movies' %}">MOVIES</a>
+              <a href="">TV SHOWS</a>
+              <a href="">PREMIUM</a>
+              <a href="">SERIES</a>
+              </div>
+              <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+              <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <ion-icon class="hamburger-menu-icon" name="menu-outline"></ion-icon>
+              </a>
+         </div>
+         <!-- Header -->
+
+       <!-- TV Banner -->
+       <section class="tv-banner">
+        <div class="container">
+            <div class="container tv-banner-wrapper"> 
+                    <img class="" src="{% static '/images/plan/mobile-plan-img.jpg' %}"/>
+            </div>
+            <div class="tv-banner-content">
+            <div class="">
+                <h1 class="heading-primary"> Watch Popular TV Shows</h1>
+            </div>
+            <a href="#">
+            <div class ="player">
+                <img src="{% static '/images/commons/play_button.png' %}" />
+                <span>Watch</span>
+         </div>
+        </div>
+        </a>
+        </div>
+        </div>   
+       </section>
+
+        <!-- TV Section -->
+        <section class="tv-section"> 
+            <div class="container-shows">
+                <h2 class="sub-heading">Reality Shows</h2>
+            </div>
+            <!-- Reality Shows -->
+            <div class="container-shows grid-tv grid--8-cols">
+                <div class="tv-wrapper">
+                    <a href="/movie_detail.html">
+                        <img src="{% static '/images/movies/netflix-originals/1.jpg' %}"/>
+                    </a>
+                </div>
+                <div class="tv-wrapper">
+                    <a href="/movie_detail.html">
+                        <img src="{% static '/images/movies/netflix-originals/2.jpg' %}"/>
+                    </a>
+                </div>
+                <div class="tv-wrapper">
+                    <a href="/movie_detail.html">
+                        <img src="{% static '/images/movies/netflix-originals/3.jpg' %}"/>
+                    </a>
+                </div>
+                <div class="tv-wrapper">
+                    <a href="/movie_detail.html">
+                        <img src="{% static '/images/movies/netflix-originals/4.jpg' %}"/>
+                    </a>
+                </div>
+                <div class="tv-wrapper">
+                    <a href="/movie_detail.html">
+                        <img src="{% static '/images/movies/netflix-originals/5.jpg' %}"/>
+                    </a>
+                </div>
+                <div class="tv-wrapper">
+                    <a href="/movie_detail.html">
+                        <img src="{% static '/images/movies/netflix-originals/5.jpg' %}"/>
+                    </a>
+                </div>
+                <div class="tv-wrapper">
+                    <a href="/movie_detail.html">
+                        <img src="{% static '/images/movies/netflix-originals/3.jpg' %}"/>
+                    </a>
+                </div>
+                <div class="tv-wrapper">
+                    <a href="/detail.html">
+                        <img src="{% static '/images/movies/netflix-originals/4.jpg' %}"/>
+                    </a>
+                </div>
+            </div>
+            <!-- Reality Shows -->
+
+            <div class="container-shows">
+                <h2 class="sub-heading">Popular in Action</h2>
+            </div>
+            <!-- Popular in Action -->
+            <div class="container-shows  grid-tv grid--8-cols">
+                <div class="tv-wrapper">
+                    <a href="/movie_detail.html">
+                        <img src="{% static '/images/movies/action/6.jpg' %}"/>
+                    </a>
+                </div>
+                <div class="tv-wrapper">
+                    <a href="/movie_detail.html">
+                        <img src="{% static '/images/movies/action/7.jpg' %}"/>
+                    </a>
+                </div>
+                <div class="tv-wrapper">
+                    <a href="/movie_detail.html">
+                        <img src="{% static '/images/movies/action/8.jpg' %}"/>
+                    </a>
+                </div>
+                <div class="tv-wrapper">
+                    <a href="/movie_detail.html">
+                        <img src="{% static '/images/movies/action/9.jpg' %}"/>
+                    </a>
+                </div>
+                <div class="tv-wrapper">
+                    <a href="/movie_detail.html">
+                        <img src="{% static '/images/movies/action/10.jpg' %}"/>
+                    </a>
+                </div>
+                <div class="tv-wrapper">
+                    <a href="/movie_detail.html">
+                        <img src="{% static '/images/movies/action/8.jpg' %}"/>
+                    </a>
+                </div>
+                <div class="tv-wrapper">
+                    <a href="/movie_detail.html">
+                        <img src="{% static '/images/movies/action/7.jpg' %}"/>
+                    </a>
+                </div>
+                <div class="tv-wrapper">
+                    <a href="/movie_detail.html">
+                        <img src="{% static '/images/movies/action/6.jpg' %}"/>
+                    </a>
+                </div>            
+            </div>
+            <!-- Popular in Action -->
+
+            <div class="container-shows">
+                <h2 class="sub-heading">Thriller Shows</h2>
+            </div>
+            <!-- Thriller Shows -->
+            <div class="container-shows grid-tv grid--8-cols">
+                <div class="tv-wrapper">
+                    <a href="/movie_detail.html">
+                        <img src="{% static '/images/movies/trending/16.jpg' %}"/>
+                    </a>
+                </div>
+                <div class="tv-wrapper">
+                    <a href="/movie_detail.html">
+                        <img src="{% static '/images/movies/trending/17.jpg' %}"/>
+                    </a>
+                </div>
+                <div class="tv-wrapper">
+                    <a href="/movie_detail.html">
+                        <img src="{% static '/images/movies/trending/18.jpg' %}"/>
+                    </a>
+                </div>
+                <div class="tv-wrapper">
+                    <a href="/movie_detail.html">
+                        <img src="{% static '/images/movies/trending/19.jpg' %}"/>
+                    </a>
+                </div>
+                <div class="tv-wrapper">
+                    <a href="/movie_detail.html">
+                        <img src="{% static '/images/movies/trending/20.jpg' %}"/>
+                    </a>
+                </div>
+                <div class="tv-wrapper">
+                    <a href="/movie_detail.html">
+                        <img src="{% static '/images/movies/trending/17.jpg' %}"/>
+                    </a>
+                </div>
+                <div class="tv-wrapper">
+                    <a href="/movie_detail.html">
+                        <img src="{% static '/images/movies/trending/18.jpg' %}"/>
+                    </a>
+                </div>
+                <div class="tv-wrapper">
+                    <a href="/detail.html">
+                        <img src="{% static '/images/movies/trending/20.jpg' %}"/>
+                    </a>
+                </div>
+            </div>
+            <!-- Thriller Shows -->
+
+            <div class="container-shows">
+                <h2 class="sub-heading">Top Picks For You</h2>
+            </div>
+            <!-- Top Picks For You -->
+            <div class="container-shows grid-tv grid--8-cols">
+                <div class="tv-wrapper">
+                    <a href="/movie_detail.html">
+                        <img src="{% static '/images/movies/trending/16.jpg' %}"/>
+                    </a>
+                </div>
+                <div class="tv-wrapper">
+                    <a href="/movie_detail.html">
+                        <img src="{% static '/images/movies/trending/17.jpg' %}"/>
+                    </a>
+                </div>
+                <div class="tv-wrapper">
+                    <a href="/movie_detail.html">
+                        <img src="{% static '/images/movies/trending/18.jpg' %}"/>
+                    </a>
+                </div>
+                <div class="tv-wrapper">
+                    <a href="/movie_detail.html">
+                        <img src="{% static '/images/movies/trending/19.jpg' %}"/>
+                    </a>
+                </div>
+                <div class="tv-wrapper">
+                    <a href="/movie_detail.html">
+                        <img src="{% static '/images/movies/trending/20.jpg' %}"/>
+                    </a>
+                </div>
+                <div class="tv-wrapper">
+                    <a href="/movie_detail.html">
+                        <img src="{% static '/images/movies/trending/17.jpg' %}"/>
+                    </a>
+                </div>
+                <div class="tv-wrapper">
+                    <a href="/movie_detail.html">
+                        <img src="{% static '/images/movies/trending/18.jpg' %}"/>
+                    </a>
+                </div>
+                <div class="tv-wrapper">
+                    <a href="/detail.html">
+                        <img src="{% static '/images/movies/trending/20.jpg' %}"/>
+                    </a>
+                </div>
+            </div>
+            <!-- Top Picks For You -->
+
+        </section>
+        <!-- TV Section -->
+     
+
+      <!-- Footer -->
+    <footer class="footer">
+      <div class="container grid grid--footer">
+        <div class="logo-col">
+          <a href="#" class="footer-logo">
+            <img class="logo" src="{% static '/images/home/banner/netflix_logo_small.png' %}"/>
+          </a>
+          <ul class="social-links">
+            <li>
+              <a class="footer-link" href="#"
+                ><ion-icon class="social-icon" name="logo-instagram"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a class="footer-link" href="#"
+                ><ion-icon class="social-icon" name="logo-facebook"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a class="footer-link" href="#"
+                ><ion-icon class="social-icon" name="logo-twitter"></ion-icon
+              ></a>
+            </li>
+          </ul>
+          <p class="copyright">
+            Copyright &copy; 2021. All rights reserved.
+          </p>
+        </div>
+
+        <div class="address-col">
+          <p class="footer-heading">Contact us</p>
+          <address class="contacts">
+            <p class="address">
+              623 Harrison St., 2nd Floor, San Francisco, CA 94107
+            </p>
+            <p>
+              <a class="footer-link" href="tel:415-201-6370">111-222-3333</a
+              ><br />
+              <a class="footer-link" href="mailto:hello@omnifood.com"
+                >info@netflix.com</a
+              >
+            </p>
+          </address>
+        </div>
+
+        <div class="account-col">
+          <p class="footer-heading">Account</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#">Create account</a></li>
+            <li><a class="footer-link" href="#">Sign in</a></li>
+            <li><a class="footer-link" href="#">iOS app</a></li>
+            <li><a class="footer-link" href="#">Android app</a></li>
+          </ul>
+        </div>
+
+        <div class="company-col">
+          <p class="footer-heading">Company</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#">About Netflix</a></li>
+            <li><a class="footer-link" href="#">View Plans</a></li>
+            <li><a class="footer-link" href="#">Subscription</a></li>
+            <li><a class="footer-link" href="#">Customer Care</a></li>
+          </ul>
+        </div>
+
+        <div class="resources-col">
+          <p class="footer-heading">Resources</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#">Movie Directory </a></li>
+            <li><a class="footer-link" href="#">Help center</a></li>
+            <li><a class="footer-link" href="#">Privacy & terms</a></li>
+          </ul>
+        </div>
+        
+      </div>
+    </footer>
+    <!-- Footer -->
+
+   </div> 
+</body>
+</html>
